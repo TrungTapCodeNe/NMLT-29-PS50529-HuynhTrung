@@ -13,7 +13,7 @@ int main(){
     while(getchar() != '\n'); // Xóa bộ đệm
 
     printf("Nhap ho ten: ");
-    scanf("%[^\n]", hoTen);
+    scanf("%s[^\n]", hoTen);
 
     printf("Nhap nam sinh: ");
     scanf("%d", &namSinh);
